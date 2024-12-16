@@ -1,0 +1,15 @@
+{
+  "name": "bmp280",
+  "version": "1.0",
+  "icon": "https://raw.githubusercontent.com/m8urnett/bmp280/refs/heads/main/diagram.svg",
+  "pins": [
+    { "name": "VCC", "type": "power", "position": [180, 50] },
+    { "name": "GND", "type": "ground", "position": [180, 100] },
+    { "name": "SCL", "type": "input", "position": [180, 150] },
+    { "name": "SDA", "type": "input", "position": [180, 200] },
+    { "name": "CSB", "type": "input", "position": [180, 250] },
+    { "name": "SDO", "type": "output", "position": [180, 300] }
+  ],
+  "description": "Custom BMP280 pressure and temperature sensor",
+  "tags": ["sensor", "i2c", "spi"]
+}
